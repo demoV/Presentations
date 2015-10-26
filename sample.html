@@ -5,24 +5,46 @@
 </head>
 <body>
 <style>
+div{
+	display: inline;
+}
 #header {
     background-color:black;
     color:white;
     text-align:center;
     padding:5px;
 }
-#nav {
-	line-height:30px;
-    background-color:#eeeeee;
-    /*height:300px;*/
-    /*width:100px;*/
+nav {
+	line-height:60px;
+    /*background-color:#eeeeee;*/
+    height:300px;
+    width:300px;
     float:left;
-    padding:5px;	      
+    padding:5px;
+    text-align: center;	      
 }
-#section {
+a{
+	display: block;
+	width: 300px;
+	text-decoration: none;
+	font-size: 30px;
+}
+section {
     width:350px;
     float:left;
-    padding:10px;	 	 
+    padding:25px;	 	 
+}
+#footer {
+    /*background-color:black;*/
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+#btn{
+	padding: 15px 25px;
+	border: 2;
+	font-size: 80
 }
 
 </style>
@@ -34,17 +56,27 @@
 		<hr><hr>
 	</div>
 	
-	<div id="nav">
+	<nav>
+			<a href="">Recently Added</a>
+			<a href="">Most Liked</a>
+			<a href="">Search By Topic</a>
+	</nav>
+	<section>
+		<div>
+			<img src="Bohemia 420 RAJA HARJAI CHARSO BEES.jpg"  width="400" height="250">
+			<!-- <div >
+			<a href="">Rap Poetry.....</a>	
+			</div> -->
+		</div>
+		<div>
+			<img src="bungee-jumping.jpg"  width="400" height="250">
+			<!-- <div >
+			<a href="">I want to fly .....</a>	
+			</div> -->
+		</div>
+	</section>
+	<!-- <section>
 		<table>
-			<tr>
-				<td> <button>Recently Added</button></td>
-				<td> <button>Most Liked</button></td>
-				<td> <button>Search By Topic</button></td>
-			</tr>
-		</table>
-	</div>
-	<div id="section">
-		<table border="1">
 		<tr>
 			<th><font color="green">
 				<a href="" >Rap Poetry.....</a>  </font> 
@@ -67,7 +99,7 @@
 		</tr>	
 
 		</table>
-	</div>
+	</section> -->
 	<ul>
 		<li></li>
 	</ul>

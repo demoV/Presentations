@@ -1,0 +1,35 @@
+body {
+	background: #FFF;
+	padding: 0;
+	margin: 0;
+	line-height: 20px;
+}
+header{
+	background: #DFDAFF;
+	/*padding: 0;*/
+	margin: 0;
+	line-height: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+header > a {
+	font-size: xx-large;
+	display: inline;
+	margin-right: 15px;
+    margin-left: 20px;
+}
+
+.page{
+	position:relative;
+	left:25%;
+	background:#DFDAFF ;
+	width: 850px;
+	/*margin:  0 auto;*/
+	/*padding: 20px;*/
+}
+nav{
+	float: right;	
+}
+nav a{
+	margin: 5px;
+}

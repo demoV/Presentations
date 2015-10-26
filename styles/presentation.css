@@ -1,0 +1,26 @@
+/*.presentation{
+	width: 200px;
+	border: 1px solid #ccc;
+	display: inline-block;
+}*/
+/*.page{
+	background: #FFF;
+	width: 1024;
+	margin:  0 auto;
+	padding: 20px;
+}*/
+ul img{
+	height: 300px;
+	width: 300px;
+}
+ul div {
+	border: 2px;
+    border-style: ridge;
+	margin	: 20px;
+	display: inline-block;
+}
+ul div a{
+	display: block;
+	font-size: 20px;
+	text-align: center;
+}
