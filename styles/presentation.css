@@ -24,3 +24,19 @@ ul div a{
 	font-size: 20px;
 	text-align: center;
 }
+.like_img{
+	margin: 3px;
+	height: 20px;
+	width: 20px;
+}
+.like_div{
+	border: 0;
+	margin: 4px;
+	display: inline-block;
+}
+.info{
+	border: 0;
+	display: inline;
+	float: right;
+	margin: 4px 8px;
+}
